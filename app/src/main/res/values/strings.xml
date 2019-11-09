@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AgroSup</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="dane">Dane</string>
+    <string name="zabiegi">Zabiegi</string>
+    <string name="menu">Menu</string>
+
+    <string name="title_activity_siewnik">Siewnik</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

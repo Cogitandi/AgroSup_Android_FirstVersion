@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MainActivity_tv_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dip"
+        android:gravity="center"
+        android:paddingTop="30dip"
+        android:text="@string/menu"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/MainActivity_btn_Zabiegi"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="@string/zabiegi" />
+
+    <Button
+        android:id="@+id/MainActivity_btn_Dane"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="@string/dane" />
+
+    <Button
+        android:id="@+id/MainActivity_btn_Ustawienia"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="@string/ustawienia" />
+
+</LinearLayout>
+    </ScrollView>
